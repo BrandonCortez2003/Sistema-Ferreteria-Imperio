@@ -1,0 +1,642 @@
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\SistemaFerrreteria.dll.config
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\SistemaFerrreteria.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\SistemaFerrreteria.pdb
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csc.exe
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csc.exe.config
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csc.rsp
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csi.exe
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csi.exe.config
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csi.rsp
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.Managed.Core.targets
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.Win32.Primitives.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.AppContext.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Collections.Immutable.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Console.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Globalization.Calendars.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.IO.Compression.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.IO.Compression.ZipFile.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.IO.FileSystem.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Net.Http.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Net.Sockets.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Reflection.Metadata.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Threading.Tasks.Extensions.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.ValueTuple.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Xml.XmlDocument.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Xml.XPath.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\vbc.exe
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\vbc.exe.config
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\vbc.rsp
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\VBCSCompiler.exe
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\VBCSCompiler.exe.config
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Antlr3.Runtime.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\EntityFramework.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\EntityFramework.SqlServer.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.Core.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Cookies.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Facebook.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Google.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.OAuth.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Twitter.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Web.Infrastructure.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Newtonsoft.Json.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Owin.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Helpers.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Mvc.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Optimization.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Razor.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.Deployment.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.Razor.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\WebGrease.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Helpers.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Mvc.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Optimization.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Razor.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.Deployment.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.Razor.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Newtonsoft.Json.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Antlr3.Runtime.pdb
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\EntityFramework.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\EntityFramework.SqlServer.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.Core.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Facebook.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Cookies.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Google.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Twitter.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.OAuth.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.Helpers.resources.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.Mvc.resources.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.Optimization.resources.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.Razor.resources.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.WebPages.resources.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.WebPages.Deployment.resources.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.WebPages.Razor.resources.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.csproj.AssemblyReference.cache
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.csproj.CoreCompileInputs.cache
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.csproj.CopyComplete
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.dll
+G:\dani cibertec ciclo 5\Servicios Web\clases.core\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.pdb
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\SistemaFerrreteria.dll.config
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\SistemaFerrreteria.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\SistemaFerrreteria.pdb
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csc.exe
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csc.exe.config
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csc.rsp
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csi.exe
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csi.exe.config
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csi.rsp
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.AppContext.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Collections.Immutable.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Console.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Globalization.Calendars.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.IO.Compression.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.IO.FileSystem.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Net.Http.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Net.Sockets.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Reflection.Metadata.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.ValueTuple.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Xml.XPath.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\vbc.exe
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\vbc.exe.config
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\vbc.rsp
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\VBCSCompiler.exe
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\VBCSCompiler.exe.config
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Antlr3.Runtime.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\EntityFramework.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\EntityFramework.SqlServer.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Google.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Web.Infrastructure.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Newtonsoft.Json.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Owin.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Helpers.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Mvc.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Optimization.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Razor.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.Deployment.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.Razor.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\WebGrease.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Helpers.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Mvc.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Optimization.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Razor.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.Deployment.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.Razor.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Newtonsoft.Json.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Antlr3.Runtime.pdb
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\EntityFramework.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\EntityFramework.SqlServer.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Google.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.Helpers.resources.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.Mvc.resources.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.Optimization.resources.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.Razor.resources.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.WebPages.resources.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.csproj.AssemblyReference.cache
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.csproj.CoreCompileInputs.cache
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.csproj.CopyComplete
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.dll
+D:\Descargas\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.pdb
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\SistemaFerrreteria.dll.config
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\SistemaFerrreteria.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\SistemaFerrreteria.pdb
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csc.exe
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csc.exe.config
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csc.rsp
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csi.exe
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csi.exe.config
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csi.rsp
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.Managed.Core.targets
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.AppContext.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Collections.Immutable.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Console.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Globalization.Calendars.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.IO.Compression.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.IO.FileSystem.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Net.Http.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Net.Sockets.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Reflection.Metadata.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.ValueTuple.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Xml.XmlDocument.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Xml.XPath.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\vbc.exe
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\vbc.exe.config
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\vbc.rsp
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\VBCSCompiler.exe
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\VBCSCompiler.exe.config
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Antlr3.Runtime.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\EntityFramework.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\EntityFramework.SqlServer.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.Core.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Cookies.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Facebook.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Google.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.OAuth.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Twitter.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Web.Infrastructure.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Newtonsoft.Json.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Owin.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Helpers.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Mvc.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Optimization.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Razor.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.Deployment.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.Razor.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\WebGrease.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Helpers.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Mvc.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Optimization.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Razor.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.Deployment.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.Razor.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Newtonsoft.Json.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Antlr3.Runtime.pdb
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\EntityFramework.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\EntityFramework.SqlServer.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.Core.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Facebook.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Cookies.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Google.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Twitter.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.OAuth.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.Helpers.resources.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.Mvc.resources.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.Optimization.resources.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.Razor.resources.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.WebPages.resources.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.csproj.AssemblyReference.cache
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.csproj.CoreCompileInputs.cache
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.dll
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.pdb
+D:\servicios proyecto cagao\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaF.0A681FB7.Up2Date
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\SistemaFerrreteria.dll.config
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\SistemaFerrreteria.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\SistemaFerrreteria.pdb
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csc.exe
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csc.exe.config
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csc.rsp
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csi.exe
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csi.exe.config
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csi.rsp
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.Managed.Core.targets
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.AppContext.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Collections.Immutable.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Console.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Globalization.Calendars.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.IO.Compression.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.IO.FileSystem.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Net.Http.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Net.Sockets.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Reflection.Metadata.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.ValueTuple.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Xml.XmlDocument.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Xml.XPath.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\vbc.exe
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\vbc.exe.config
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\vbc.rsp
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\VBCSCompiler.exe
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\VBCSCompiler.exe.config
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Antlr3.Runtime.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\EntityFramework.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\EntityFramework.SqlServer.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.Core.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Cookies.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Facebook.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Google.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.OAuth.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Twitter.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Web.Infrastructure.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Newtonsoft.Json.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Owin.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Helpers.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Mvc.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Optimization.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Razor.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.Deployment.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.Razor.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\WebGrease.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Helpers.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Mvc.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Optimization.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Razor.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.Deployment.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.Razor.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Newtonsoft.Json.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Antlr3.Runtime.pdb
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\EntityFramework.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\EntityFramework.SqlServer.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.Core.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Facebook.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Cookies.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Google.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Twitter.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.OAuth.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.Helpers.resources.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.Mvc.resources.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.Optimization.resources.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.Razor.resources.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.WebPages.resources.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.csproj.AssemblyReference.cache
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.csproj.CoreCompileInputs.cache
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaF.0A681FB7.Up2Date
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.dll
+E:\proyectos Cibertec\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.pdb
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.csproj.AssemblyReference.cache
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.csproj.CoreCompileInputs.cache
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaFerrreteria.pdb
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\SistemaFerrreteria.dll.config
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\SistemaFerrreteria.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\SistemaFerrreteria.pdb
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csc.exe
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csc.exe.config
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csc.rsp
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csi.exe
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csi.exe.config
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\csi.rsp
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Buffers.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Collections.Immutable.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Memory.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Numerics.Vectors.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Reflection.Metadata.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\vbc.exe
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\vbc.exe.config
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\vbc.rsp
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\VBCSCompiler.exe
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\roslyn\VBCSCompiler.exe.config
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Antlr3.Runtime.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Azure.Core.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Azure.Identity.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\EntityFramework.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\EntityFramework.SqlServer.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Data.SqlClient.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Identity.Client.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.IdentityModel.Abstractions.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.IdentityModel.Logging.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.IdentityModel.Protocols.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.IdentityModel.Tokens.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Google.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Web.Infrastructure.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Newtonsoft.Json.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Owin.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Buffers.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.ClientModel.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Configuration.ConfigurationManager.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.IO.FileSystem.AccessControl.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Memory.Data.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Memory.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Numerics.Vectors.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Security.AccessControl.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Security.Cryptography.ProtectedData.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Security.Permissions.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Security.Principal.Windows.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Text.Encodings.Web.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Text.Json.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Threading.Tasks.Extensions.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.ValueTuple.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Helpers.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Mvc.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Optimization.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Razor.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.Deployment.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.Razor.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\WebGrease.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Azure.Core.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Azure.Identity.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Data.SqlClient.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Identity.Client.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.IdentityModel.Abstractions.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.IdentityModel.Logging.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.IdentityModel.Protocols.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.IdentityModel.Tokens.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Newtonsoft.Json.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Buffers.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.ClientModel.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Configuration.ConfigurationManager.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.IO.FileSystem.AccessControl.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Memory.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Memory.Data.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Numerics.Vectors.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Security.AccessControl.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Security.Cryptography.ProtectedData.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Security.Permissions.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Security.Principal.Windows.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Text.Encodings.Web.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Text.Json.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Threading.Tasks.Extensions.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.ValueTuple.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Helpers.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Mvc.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Razor.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.Deployment.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.WebPages.Razor.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\System.Web.Optimization.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Antlr3.Runtime.pdb
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\EntityFramework.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\EntityFramework.SqlServer.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Google.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\de\Microsoft.Data.SqlClient.resources.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\es\Microsoft.Data.SqlClient.resources.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\it\Microsoft.Data.SqlClient.resources.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.Helpers.resources.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.Mvc.resources.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.Razor.resources.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.WebPages.resources.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\es\System.Web.Optimization.resources.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\Cibertec\Ciclo 5\SistemaFerrreteria\SistemaFerrreteria\obj\Debug\SistemaF.0A681FB7.Up2Date

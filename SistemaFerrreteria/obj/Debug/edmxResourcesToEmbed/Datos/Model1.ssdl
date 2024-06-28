@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="bd_Ferreteria2Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="ContextKey" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="Model" Type="varbinary(max)" Nullable="false" />
+    <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetRoles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserClaims">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ClaimType" Type="nvarchar(max)" />
+    <Property Name="ClaimValue" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="AspNetUserLogins">
+    <Key>
+      <PropertyRef Name="LoginProvider" />
+      <PropertyRef Name="ProviderKey" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="LoginProvider" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ProviderKey" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="RoleId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
+    <Property Name="PasswordHash" Type="nvarchar(max)" />
+    <Property Name="SecurityStamp" Type="nvarchar(max)" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" />
+    <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="datetime" />
+    <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Categoria">
+    <Key>
+      <PropertyRef Name="ID_Categoria" />
+    </Key>
+    <Property Name="ID_Categoria" Type="int" Nullable="false" />
+    <Property Name="Nombre_categoria" Type="varchar" MaxLength="25" />
+    <Property Name="Descripcion_categoria" Type="varchar" MaxLength="65" />
+  </EntityType>
+  <EntityType Name="Detalle_Venta">
+    <Key>
+      <PropertyRef Name="ID_Detalle" />
+    </Key>
+    <Property Name="ID_Detalle" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Venta" Type="int" />
+    <Property Name="ID_Producto" Type="int" />
+    <Property Name="Cantidad" Type="int" />
+    <Property Name="Precio_unitario" Type="float" />
+    <Property Name="Total" Type="float" />
+  </EntityType>
+  <EntityType Name="Estado">
+    <Key>
+      <PropertyRef Name="ID_Estado" />
+    </Key>
+    <Property Name="ID_Estado" Type="int" Nullable="false" />
+    <Property Name="Nombre_estado" Type="varchar" MaxLength="25" />
+    <Property Name="Descripcion_estado" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="Producto">
+    <Key>
+      <PropertyRef Name="ID_Producto" />
+    </Key>
+    <Property Name="ID_Producto" Type="int" Nullable="false" />
+    <Property Name="Nombre_del_producto" Type="varchar" MaxLength="25" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="35" />
+    <Property Name="Precio" Type="int" />
+    <Property Name="Stock" Type="int" />
+    <Property Name="ID_Proveedor" Type="int" />
+    <Property Name="ID_Categoria" Type="int" />
+    <Property Name="ID_Estado" Type="int" />
+    <Property Name="img_proc" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Proveedor">
+    <Key>
+      <PropertyRef Name="ID_Proveedor" />
+    </Key>
+    <Property Name="ID_Proveedor" Type="int" Nullable="false" />
+    <Property Name="Nombre_de_la_empresa" Type="varchar" MaxLength="70" />
+    <Property Name="Nombre_del_contacto" Type="varchar" MaxLength="20" />
+    <Property Name="Correo_electronico" Type="varchar" MaxLength="30" />
+    <Property Name="Telefono_del_contacto" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Direccion" Type="varchar" MaxLength="35" Nullable="false" />
+    <Property Name="RUC" Type="varchar" MaxLength="25" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="idUsuario" />
+    </Key>
+    <Property Name="idUsuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="foto" Type="varchar(max)" />
+    <Property Name="nombre" Type="varchar" MaxLength="40" />
+    <Property Name="apellido" Type="varchar" MaxLength="50" />
+    <Property Name="correo" Type="varchar" MaxLength="150" />
+    <Property Name="numero" Type="varchar" MaxLength="9" />
+    <Property Name="username" Type="varchar" MaxLength="20" />
+    <Property Name="password" Type="varchar(max)" />
+    <Property Name="fechaRegistro" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Venta">
+    <Key>
+      <PropertyRef Name="ID_Venta" />
+    </Key>
+    <Property Name="ID_Venta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha_de_venta" Type="date" />
+    <Property Name="Total_venta" Type="float" />
+    <Property Name="SubTotal" Type="float" />
+    <Property Name="Iva" Type="float" />
+  </EntityType>
+  <Association Name="FK__Detalle_V__ID_Pr__403A8C7D">
+    <End Role="Producto" Type="Self.Producto" Multiplicity="0..1" />
+    <End Role="Detalle_Venta" Type="Self.Detalle_Venta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producto">
+        <PropertyRef Name="ID_Producto" />
+      </Principal>
+      <Dependent Role="Detalle_Venta">
+        <PropertyRef Name="ID_Producto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Detalle_V__ID_Ve__412EB0B6">
+    <End Role="Venta" Type="Self.Venta" Multiplicity="0..1" />
+    <End Role="Detalle_Venta" Type="Self.Detalle_Venta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Venta">
+        <PropertyRef Name="ID_Venta" />
+      </Principal>
+      <Dependent Role="Detalle_Venta">
+        <PropertyRef Name="ID_Venta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Producto__ID_Cat__4222D4EF">
+    <End Role="Categoria" Type="Self.Categoria" Multiplicity="0..1" />
+    <End Role="Producto" Type="Self.Producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categoria">
+        <PropertyRef Name="ID_Categoria" />
+      </Principal>
+      <Dependent Role="Producto">
+        <PropertyRef Name="ID_Categoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Producto__ID_Est__4316F928">
+    <End Role="Estado" Type="Self.Estado" Multiplicity="0..1" />
+    <End Role="Producto" Type="Self.Producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Estado">
+        <PropertyRef Name="ID_Estado" />
+      </Principal>
+      <Dependent Role="Producto">
+        <PropertyRef Name="ID_Estado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Producto__ID_Pro__440B1D61">
+    <End Role="Proveedor" Type="Self.Proveedor" Multiplicity="0..1" />
+    <End Role="Producto" Type="Self.Producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proveedor">
+        <PropertyRef Name="ID_Proveedor" />
+      </Principal>
+      <Dependent Role="Producto">
+        <PropertyRef Name="ID_Proveedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserClaims" Type="Self.AspNetUserClaims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserClaims">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserLogins" Type="Self.AspNetUserLogins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserLogins">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+    <End Role="AspNetRoles" Type="Self.AspNetRoles" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetRoles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="usp_proveedor_actualizar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="idProveedor" Type="int" Mode="In" />
+    <Parameter Name="nombreEmpresa" Type="varchar" Mode="In" />
+    <Parameter Name="nombreContacto" Type="varchar" Mode="In" />
+    <Parameter Name="correo" Type="varchar" Mode="In" />
+    <Parameter Name="telefonoCon" Type="varchar" Mode="In" />
+    <Parameter Name="direccion" Type="varchar" Mode="In" />
+    <Parameter Name="ruc" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="usp_proveedor_eliminar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="idProveedor" Type="int" Mode="In" />
+  </Function>
+  <Function Name="usp_Proveedor_insertar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="idProveedor" Type="int" Mode="In" />
+    <Parameter Name="nombreEmpresa" Type="varchar" Mode="In" />
+    <Parameter Name="nombreContacto" Type="varchar" Mode="In" />
+    <Parameter Name="correo" Type="varchar" Mode="In" />
+    <Parameter Name="telefonoCon" Type="varchar" Mode="In" />
+    <Parameter Name="direccion" Type="varchar" Mode="In" />
+    <Parameter Name="ruc" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="usp_Proveedor_Merge" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="idProveedor" Type="int" Mode="In" />
+    <Parameter Name="nombreEmpresa" Type="varchar" Mode="In" />
+    <Parameter Name="nombreContacto" Type="varchar" Mode="In" />
+    <Parameter Name="correo" Type="varchar" Mode="In" />
+    <Parameter Name="telefonoCon" Type="varchar" Mode="In" />
+    <Parameter Name="direccion" Type="varchar" Mode="In" />
+    <Parameter Name="ruc" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="usp_ProveedorListar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="bd_Ferreteria2ModelStoreContainer">
+    <EntitySet Name="__MigrationHistory" EntityType="Self.__MigrationHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaims" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserLogins" EntityType="Self.AspNetUserLogins" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserRoles" EntityType="Self.AspNetUserRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Categoria" EntityType="Self.Categoria" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Detalle_Venta" EntityType="Self.Detalle_Venta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Estado" EntityType="Self.Estado" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Producto" EntityType="Self.Producto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Proveedor" EntityType="Self.Proveedor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Venta" EntityType="Self.Venta" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Detalle_V__ID_Pr__403A8C7D" Association="Self.FK__Detalle_V__ID_Pr__403A8C7D">
+      <End Role="Producto" EntitySet="Producto" />
+      <End Role="Detalle_Venta" EntitySet="Detalle_Venta" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Detalle_V__ID_Ve__412EB0B6" Association="Self.FK__Detalle_V__ID_Ve__412EB0B6">
+      <End Role="Venta" EntitySet="Venta" />
+      <End Role="Detalle_Venta" EntitySet="Detalle_Venta" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Producto__ID_Cat__4222D4EF" Association="Self.FK__Producto__ID_Cat__4222D4EF">
+      <End Role="Categoria" EntitySet="Categoria" />
+      <End Role="Producto" EntitySet="Producto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Producto__ID_Est__4316F928" Association="Self.FK__Producto__ID_Est__4316F928">
+      <End Role="Estado" EntitySet="Estado" />
+      <End Role="Producto" EntitySet="Producto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Producto__ID_Pro__440B1D61" Association="Self.FK__Producto__ID_Pro__440B1D61">
+      <End Role="Proveedor" EntitySet="Proveedor" />
+      <End Role="Producto" EntitySet="Producto" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserClaims" EntitySet="AspNetUserClaims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserLogins" EntitySet="AspNetUserLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+      <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

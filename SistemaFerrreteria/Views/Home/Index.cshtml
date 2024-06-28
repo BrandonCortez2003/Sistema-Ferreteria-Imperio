@@ -1,0 +1,282 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@Styles.Render("~/Content/Style.css")
+
+<style>
+    #miCarrusel {
+        border-radius: 20px;
+        box-shadow: 0 1px 20px rgb(0, 0, 0);
+        overflow: hidden; /* Asegura que la sombra se muestre correctamente */
+    }
+
+    .fondoespa {
+        padding: 20px;
+    }
+
+    .carousel-inner {
+        border-radius: 20px;
+        overflow: hidden; /* Asegura que la sombra se muestre correctamente */
+    }
+    
+   
+</style>
+
+<body>
+
+   
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+
+
+
+        <div class="fondoespa">
+            <div id="miCarrusel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://concepto.de/wp-content/uploads/2021/11/herramienta-e1638298639464.jpg" class="carrusel" alt="Imagen 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i2.wp.com/www.modregohogar.com/blog/wp-content/uploads/2019/09/Herramientas-.jpg?ssl=1" class="carrusel" alt="Imagen 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://png.pngtree.com/background/20231016/original/pngtree-d-illustration-of-diverse-construction-tools-screwdriver-level-electrical-tape-hammer-picture-image_5579557.jpg" class="carrusel" alt="Imagen 2">
+                    </div>
+                    <!-- Agrega más elementos de carrusel según sea necesario -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#miCarrusel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#miCarrusel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+
+            <h1>Hola, Bienvenidos a FERRIMPERIO</h1>
+            <h2>Somos una ferrteria virtual en donde podra encontrar todo lo que necesite para su hogar</h2>
+        </div>
+
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo2">Conoce a FERRIMPERIO</h2>
+            <p class="seccion-texto">
+                Construyendo Sueños, Herramienta por Herramienta"
+                En FERRIMPERIO, creemos que cada proyecto es un sueño en construcción. Desde pequeñas reparaciones hasta grandes renovaciones,
+                estamos comprometidos a proporcionarte las herramientas y materiales adecuados para llevar a cabo tus proyectos con éxito. Nuestra ferretería es más que un lugar para comprar; es un centro de inspiración y conocimientos donde tu visión cobra vida.
+            </p>
+        </div>
+    </section>
+
+    <!-- SECCION EXPERIENCIA-->
+
+
+    <!--Seccion Proyectos-->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Productos</h2>
+        <h3 class="seccion-descripcion" style="text-align:center">Descubre una amplia gama de herramientas manuales y eléctricas de marcas reconocidas. Ya sea que seas un profesional experimentado o un aficionado entusiasta, encontrarás lo que necesitas para cada tarea.</h3>
+        <!--Galeria de proyectos-->
+        <div class="container text-center proyectos-contenedor">
+            <div class="row">
+                <!--Proyecto 1-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyectos">
+                        <img src="~/imagenes/producto1.jpg" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p></p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/DanielPRe15" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Proyecto 2-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyectos">
+                        <img src="~/imagenes/producto2.png" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p></p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/DanielPRe15" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Proyecto 3-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyectos">
+                        <img style="height:350px" src="~/fotos/11.jpg" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p></p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/DanielPRe15" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Proyecto 4-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyectos">
+                        <img  style="height:350px"  src="~/fotos/10.jpg" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p></p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/DanielPRe15" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Proyecto 5-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyectos">
+                        <img src="~/fotos/19.jpg" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p></p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/DanielPRe15" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Proyecto 6-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyectos">
+                        <img class="productos" src="~/fotos/5.jpg" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p></p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/DanielPRe15" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/DanielPRe15" target="_blank" rel="noopener noreferrer">
+            <button type="button" class=" btn btn-info" style="border-radius: 10px;">
+                Ver más productos
+                <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+        </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+        <h2 class="seccion-titulo">Proveedores</h2>
+       
+
+        <!-- Carrusel -->
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="~/imagenes/proovedor1.png" alt="Foto de Gino">
+                        <p class="testimonio-texto">Cemento Sol ya es parte de la historia del Perú, porque desde hace más de 100 años venimos brindando el mejor cemento para las familias peruanas, y prueba de ello es que con nuestro cemento se han construido grandes obras emblemáticas, como el Estadio Nacional, la Plaza San Martín, el Centro Cívico, entre otras.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Cemento Sol</p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="~/imagenes/proveedor2.jpg" alt="Foto de Nora">
+                        <p class="testimonio-texto">La historia de Caterpillar comenzó el día que dejamos de utilizar ruedas, el Día de Acción de Gracias de 1904. Ese fue el día en que Benjamin Holt inventó el primer tractor de cadenas comercialmente exitoso y cómo ese hecho resultó en nuestro nombre, Caterpillar.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">CAT</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="~/imagenes/proveedor3.png" alt="Foto de Leonardo">
+                        <p class="testimonio-texto">Fundada en 1964 en la ciudad de Arequipa. Iniciamos nuestras operaciones en el año 1966 con la puesta en funcionamiento de nuestra primera Planta de Laminación de productos de acero, fabricando ángulos, platinas y perfiles para atender los mercados de Lima y Arequipa.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Aceros Arequipa</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto  seccion-oscura">
+        <div class="container">
+            <div  class=" text-center rectangulo d-flex justify-content-evenly">
+                <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">
+                        ¡Hablemos!
+                    </div>
+                    <div class="col-12 col-md-4 descripcion">
+                        FerrImperio está aquí para ser tu socio en cada proyecto. Ya sea que estés construyendo, reparando o renovando, confía en nosotros para proporcionarte las herramientas y materiales que necesitas. ¡Construyamos tu imperio juntos!
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="@Url.Action("AgregarCarrito", "Carrito")">
+                            <button type="button">
+                                Contacto
+                                <i class="bi bi-envelope-check-fill"></i>
+                            </button>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+        <p style="font-size:20px">&copy; 2023 FerrImperio - Construyendo Sueños, Herramienta por Herramienta</p>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>

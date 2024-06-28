@@ -1,0 +1,136 @@
+﻿@model IEnumerable<SistemaFerrreteria.Datos.Producto>
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<style>
+    a:{
+        background-color:purple;
+    }
+</style>
+
+<br />
+
+<link rel="stylesheet" href="~/Content/estile1.css" />
+<link rel="stylesheet" href="~/Content/Style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+<div class="container py-5">
+    <h1 style="color:darkslateblue ; font-size:70px" class="text-center">PRODUCTOS</h1>
+    <br />
+    <br />
+
+
+
+    <!--  @using (Html.BeginForm("BuscarPorNombre", "Producto", FormMethod.Get, new { @class = "mb-4" }))
+     {
+         <div class="form-group d-flex align-items-center justify-content-end">
+             <label for="nombre" class="mr-2">Buscar por Nombre:</label>
+             <input type="text" name="nombre" class="form-control mr-2" />
+             <button type="submit" class="btn btn-primary">Buscar</button>
+         </div>
+     }-->
+
+    @if (ViewBag.ListaCategorias != null && ViewBag.ListaCategorias is IEnumerable<SistemaFerrreteria.Datos.Categoria> && (Model != null && Model.Any()))
+    {
+    <div style="text-align:center"  class="mb-4">
+        <!-- Crear enlaces o botones para cada categoría -->
+        @foreach (var categoria in ViewBag.ListaCategorias as IEnumerable<SistemaFerrreteria.Datos.Categoria>)
+        {
+            <a style="background-color:mediumpurple ; color:white ; padding:20px; border-radius:20px ; text-align:center "  href="@Url.Action("ProductosPorCategoria", "Producto", new { categoriaId = categoria.ID_Categoria })" class="btn  mr-2 mb-2">@categoria.Nombre_categoria</a>
+        }
+    </div>
+}
+
+@if (Model == null || !Model.Any())
+{
+    <p>No se encontraron productos</p>
+}
+else
+{
+    <div class="row row-cols-1 row-cols-md-3 g-4 py-3">
+        @foreach (var item in Model)
+        {
+            <div class="col">
+                <div class="product-card" id="product-card">
+                    <img src="@Url.Content(item.img_proc)" class="product-card-thumbnail-image">
+                    <div class="product-details">
+                        <div id="hide_on_hover">
+                            <p class="book-title pb-2">@item.Descripcion</p>
+                            <span class="rating">
+                                CODIGO
+                                <p class="fa-solid fa-hashtag"></p> (@item.ID_Producto)
+                            </span>
+                            <span class="rating p-2">
+                                STOCK
+                                <p class="fa-solid fa-cubes-stacked"></p> (@item.Stock)
+                            </span>
+                        </div>
+                        <div class="not_change_on_hover">
+                            <div class="product-quality mb-3">
+                                <div class="input-chip">
+                                    <span>@item.Categoria.Nombre_categoria</span>
+                                </div>
+                                <div class="input-chip">
+                                    <div class="new-price p-2 fa-solid fa-tags">
+                                        <span class="p-2">@String.Format("{0:C}", @item.Precio)</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            @using (Html.BeginForm("AgregarCarrito", "Carrito", FormMethod.Post))
+                            {
+                                var carrito = Session["carrito"] as List<SistemaFerrreteria.Models.Carrito>;
+                                bool estaEnCarrito = carrito != null && carrito.Any(c => c.Producto.ID_Producto == item.ID_Producto);
+
+                                if (!estaEnCarrito)
+                                {
+                                    if (item.Stock > 0)
+                                    {
+                                        <div class="row">
+                                            <div class="col">
+                                                <input type="hidden" name="id" value="@item.ID_Producto" style="display:none;" />
+                                                @Html.TextBox("cantidad", null, new { @class = "form-control", placeholder = "Ingrese Cantidad" })
+                                            </div>
+                                            <div class="col d-grid">
+                                                <button type="submit" style="color:white ;background-color:darkslateblue" class="btn">
+                                                    <i class="fa-solid fa-cart-plus"></i> Agregar
+                                                </button>
+                                            </div>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <div class="row">
+                                            <div class="col">
+                                                <input type="hidden" name="id" value="@item.ID_Producto" style="display:none;" />
+                                                @Html.TextBox("cantidad", null, new { @class = "form-control", placeholder = "Ingrese Cantidad", disabled = "disabled" })
+                                            </div>
+                                            <div class="col d-grid">
+                                                <button type="submit" class="btn btn-danger" disabled>
+                                                    <i class="fa-solid fa-store-slash"></i> Agotado
+                                                </button>
+                                            </div>
+                                        </div>
+                                    }
+                                }
+                                else
+                                {
+                                    <div class="row">
+                                        <div class="alert alert-danger" role="alert">
+                                            <p>EL PRODUCTO YA ESTÁ EN EL CARRITO</p>
+                                        </div>
+                                    </div>
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+</div>
+
+

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="bd_Ferreteria2ModelStoreContainer" CdmEntityContainer="bd_Ferreteria2Entities1">
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="bd_Ferreteria2Model.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetRoles">
+      <EntityTypeMapping TypeName="bd_Ferreteria2Model.AspNetRoles">
+        <MappingFragment StoreEntitySet="AspNetRoles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserClaims">
+      <EntityTypeMapping TypeName="bd_Ferreteria2Model.AspNetUserClaims">
+        <MappingFragment StoreEntitySet="AspNetUserClaims">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+          <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserLogins">
+      <EntityTypeMapping TypeName="bd_Ferreteria2Model.AspNetUserLogins">
+        <MappingFragment StoreEntitySet="AspNetUserLogins">
+          <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+          <ScalarProperty Name="ProviderKey" ColumnName="ProviderKey" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUsers">
+      <EntityTypeMapping TypeName="bd_Ferreteria2Model.AspNetUsers">
+        <MappingFragment StoreEntitySet="AspNetUsers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categoria">
+      <EntityTypeMapping TypeName="bd_Ferreteria2Model.Categoria">
+        <MappingFragment StoreEntitySet="Categoria">
+          <ScalarProperty Name="ID_Categoria" ColumnName="ID_Categoria" />
+          <ScalarProperty Name="Nombre_categoria" ColumnName="Nombre_categoria" />
+          <ScalarProperty Name="Descripcion_categoria" ColumnName="Descripcion_categoria" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Detalle_Venta">
+      <EntityTypeMapping TypeName="bd_Ferreteria2Model.Detalle_Venta">
+        <MappingFragment StoreEntitySet="Detalle_Venta">
+          <ScalarProperty Name="ID_Detalle" ColumnName="ID_Detalle" />
+          <ScalarProperty Name="ID_Venta" ColumnName="ID_Venta" />
+          <ScalarProperty Name="ID_Producto" ColumnName="ID_Producto" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Precio_unitario" ColumnName="Precio_unitario" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Estado">
+      <EntityTypeMapping TypeName="bd_Ferreteria2Model.Estado">
+        <MappingFragment StoreEntitySet="Estado">
+          <ScalarProperty Name="ID_Estado" ColumnName="ID_Estado" />
+          <ScalarProperty Name="Nombre_estado" ColumnName="Nombre_estado" />
+          <ScalarProperty Name="Descripcion_estado" ColumnName="Descripcion_estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Producto">
+      <EntityTypeMapping TypeName="bd_Ferreteria2Model.Producto">
+        <MappingFragment StoreEntitySet="Producto">
+          <ScalarProperty Name="ID_Producto" ColumnName="ID_Producto" />
+          <ScalarProperty Name="Nombre_del_producto" ColumnName="Nombre_del_producto" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Stock" ColumnName="Stock" />
+          <ScalarProperty Name="ID_Proveedor" ColumnName="ID_Proveedor" />
+          <ScalarProperty Name="ID_Categoria" ColumnName="ID_Categoria" />
+          <ScalarProperty Name="ID_Estado" ColumnName="ID_Estado" />
+          <ScalarProperty Name="img_proc" ColumnName="img_proc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proveedor">
+      <EntityTypeMapping TypeName="bd_Ferreteria2Model.Proveedor">
+        <MappingFragment StoreEntitySet="Proveedor">
+          <ScalarProperty Name="ID_Proveedor" ColumnName="ID_Proveedor" />
+          <ScalarProperty Name="Nombre_de_la_empresa" ColumnName="Nombre_de_la_empresa" />
+          <ScalarProperty Name="Nombre_del_contacto" ColumnName="Nombre_del_contacto" />
+          <ScalarProperty Name="Correo_electronico" ColumnName="Correo_electronico" />
+          <ScalarProperty Name="Telefono_del_contacto" ColumnName="Telefono_del_contacto" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="RUC" ColumnName="RUC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="bd_Ferreteria2Model.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+          <ScalarProperty Name="foto" ColumnName="foto" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="numero" ColumnName="numero" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Venta">
+      <EntityTypeMapping TypeName="bd_Ferreteria2Model.Venta">
+        <MappingFragment StoreEntitySet="Venta">
+          <ScalarProperty Name="ID_Venta" ColumnName="ID_Venta" />
+          <ScalarProperty Name="Fecha_de_venta" ColumnName="Fecha_de_venta" />
+          <ScalarProperty Name="Total_venta" ColumnName="Total_venta" />
+          <ScalarProperty Name="SubTotal" ColumnName="SubTotal" />
+          <ScalarProperty Name="Iva" ColumnName="Iva" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AspNetUserRoles" TypeName="bd_Ferreteria2Model.AspNetUserRoles" StoreEntitySet="AspNetUserRoles">
+      <EndProperty Name="AspNetRoles">
+        <ScalarProperty Name="Id" ColumnName="RoleId" />
+      </EndProperty>
+      <EndProperty Name="AspNetUsers">
+        <ScalarProperty Name="Id" ColumnName="UserId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="usp_proveedor_actualizar" FunctionName="bd_Ferreteria2Model.Store.usp_proveedor_actualizar" />
+    <FunctionImportMapping FunctionImportName="usp_proveedor_eliminar" FunctionName="bd_Ferreteria2Model.Store.usp_proveedor_eliminar" />
+    <FunctionImportMapping FunctionImportName="usp_Proveedor_insertar" FunctionName="bd_Ferreteria2Model.Store.usp_Proveedor_insertar" />
+    <FunctionImportMapping FunctionImportName="usp_Proveedor_Merge" FunctionName="bd_Ferreteria2Model.Store.usp_Proveedor_Merge" />
+    <FunctionImportMapping FunctionImportName="usp_ProveedorListar" FunctionName="bd_Ferreteria2Model.Store.usp_ProveedorListar">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="bd_Ferreteria2Model.usp_ProveedorListar_Result">
+          <ScalarProperty Name="ID_Proveedor" ColumnName="ID_Proveedor" />
+          <ScalarProperty Name="Nombre_de_la_empresa" ColumnName="Nombre_de_la_empresa" />
+          <ScalarProperty Name="Nombre_del_contacto" ColumnName="Nombre_del_contacto" />
+          <ScalarProperty Name="Correo_electronico" ColumnName="Correo_electronico" />
+          <ScalarProperty Name="Telefono_del_contacto" ColumnName="Telefono_del_contacto" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="RUC" ColumnName="RUC" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

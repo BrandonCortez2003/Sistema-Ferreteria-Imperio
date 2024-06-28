@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Cibertec\\Ciclo 5\\SistemaFerrreteria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9326AC91-309B-4162-A11B-75A52C90EB9E}|SistemaFerrreteria\\SistemaFerrreteria.csproj|d:\\cibertec\\ciclo 5\\sistemaferrreteria\\sistemaferrreteria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9326AC91-309B-4162-A11B-75A52C90EB9E}|SistemaFerrreteria\\SistemaFerrreteria.csproj|solutionrelative:sistemaferrreteria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9326AC91-309B-4162-A11B-75A52C90EB9E}|SistemaFerrreteria\\SistemaFerrreteria.csproj|d:\\cibertec\\ciclo 5\\sistemaferrreteria\\sistemaferrreteria\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9326AC91-309B-4162-A11B-75A52C90EB9E}|SistemaFerrreteria\\SistemaFerrreteria.csproj|solutionrelative:sistemaferrreteria\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9326AC91-309B-4162-A11B-75A52C90EB9E}|SistemaFerrreteria\\SistemaFerrreteria.csproj|d:\\cibertec\\ciclo 5\\sistemaferrreteria\\sistemaferrreteria\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9326AC91-309B-4162-A11B-75A52C90EB9E}|SistemaFerrreteria\\SistemaFerrreteria.csproj|solutionrelative:sistemaferrreteria\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9326AC91-309B-4162-A11B-75A52C90EB9E}|SistemaFerrreteria\\SistemaFerrreteria.csproj|d:\\cibertec\\ciclo 5\\sistemaferrreteria\\sistemaferrreteria\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9326AC91-309B-4162-A11B-75A52C90EB9E}|SistemaFerrreteria\\SistemaFerrreteria.csproj|solutionrelative:sistemaferrreteria\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 669,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IdentityModels.cs",
+              "DocumentMoniker": "D:\\Cibertec\\Ciclo 5\\SistemaFerrreteria\\SistemaFerrreteria\\Models\\IdentityModels.cs",
+              "RelativeDocumentMoniker": "SistemaFerrreteria\\Models\\IdentityModels.cs",
+              "ToolTip": "D:\\Cibertec\\Ciclo 5\\SistemaFerrreteria\\SistemaFerrreteria\\Models\\IdentityModels.cs",
+              "RelativeToolTip": "SistemaFerrreteria\\Models\\IdentityModels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T16:15:35.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Cibertec\\Ciclo 5\\SistemaFerrreteria\\SistemaFerrreteria\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SistemaFerrreteria\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Cibertec\\Ciclo 5\\SistemaFerrreteria\\SistemaFerrreteria\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "SistemaFerrreteria\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAMABAAAAAAAAAAAwwOQBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T16:11:59.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountViewModels.cs",
+              "DocumentMoniker": "D:\\Cibertec\\Ciclo 5\\SistemaFerrreteria\\SistemaFerrreteria\\Models\\AccountViewModels.cs",
+              "RelativeDocumentMoniker": "SistemaFerrreteria\\Models\\AccountViewModels.cs",
+              "ToolTip": "D:\\Cibertec\\Ciclo 5\\SistemaFerrreteria\\SistemaFerrreteria\\Models\\AccountViewModels.cs",
+              "RelativeToolTip": "SistemaFerrreteria\\Models\\AccountViewModels.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAUwHAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T16:10:52.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Cibertec\\Ciclo 5\\SistemaFerrreteria\\SistemaFerrreteria\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SistemaFerrreteria\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Cibertec\\Ciclo 5\\SistemaFerrreteria\\SistemaFerrreteria\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SistemaFerrreteria\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-28T16:08:22.36Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

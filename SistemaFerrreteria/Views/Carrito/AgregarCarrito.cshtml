@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewBag.Title = "AgregarCarrito";
+}
+<link rel="stylesheet" href="~/Content/Style.css">
+<h2>AgregarCarrito</h2>
+
+<main id="cart" style="max-width:960px">
+    @using (Html.BeginForm("Index", "Producto", FormMethod.Post))
+    {
+        <button type="submit" class="btn btn-none">
+            &#11178; Volver a la tienda
+        </button>
+    }
+    <div class="container-fluid">
+        <div class="row align-items-start">
+            <div class="col-12 col-sm-8 items">
+
+                @{
+                    double total = 0;
+                }
+                @if (Session["carrito"] != null)
+                {
+                    foreach (var item in Session["carrito"] as List<SistemaFerrreteria.Models.Carrito>)
+                    {
+                        total += (double)(item.Cantidad * item.Producto.Precio);
+
+                        <div class="cartItem row align-items-start">
+                            <div class="col-3 mb-2">
+                                <img class="w-100"
+                                     src="@Url.Content(item.Producto.img_proc)"
+                                     alt="art image">
+                            </div>
+                            <div class="col-5 mb-2">
+                                <h6 class="">@item.Producto.ID_Producto</h6>
+                                <h6 class="pl-1 mb-0 mb-2">CODIGO: @item.Producto.Descripcion</h6>
+                                <h6 class="pl-1 mb-0 mb-2">CATEGORIA: @item.Producto.Categoria.Nombre_categoria</h6>
+                                <h6 class="pl-1 mb-0 mb-2">PRECIO: @String.Format("{0:C}", @item.Producto.Precio)</h6>
+                                <h6 class="pl-1 mb-0 mb-2">STOCK: @item.Producto.Stock</h6>
+                                <h6 class="pl-1 mb-0 mb-2">CANTIDAD: @item.Cantidad</h6>
+                            </div>
+                            <div class="col-2">
+
+                            </div>
+                            <div class="col-2">
+                                <button class="btn btn-danger" onclick="confirmDelete('@item.Producto.ID_Producto')">Eliminar</button>
+                            </div>
+                        </div>
+                        <hr>
+                    }
+                }
+
+            </div>
+            <div class="col-12 col-sm-4 p-3 proceed form">
+                <div class="row">
+                    <div class="col">
+                        <h5>Total</h5>
+                    </div>
+                    <div class="col d-grid">
+                        <h5 id="total" class="text-center">@String.Format("{0:C}", total)</h5>
+                    </div>
+                </div>
+                <a class="btn btn-dark" href="@Url.Action("FinalizarCompra","Carrito", null, null)">FINALIZAR COMPRA</a>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<hr />
+
+@section Scripts
+{
+    <script>
+        function confirmDelete(productID) {
+            Swal.fire({
+                title: '¿Estás seguro de que deseas eliminar este producto?',
+                icon: 'question',
+                showCancelButton: true,
+                confirmButtonText: 'Sí',
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    window.location.href = '/Carrito/Delete?Id=' + productID;
+                }
+            });
+        }
+    </script>
+
+}
+

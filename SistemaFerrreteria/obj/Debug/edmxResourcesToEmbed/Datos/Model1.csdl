@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="bd_Ferreteria2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="C__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ContextKey" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Model" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="ProductVersion" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetRoles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AspNetUsers" Relationship="Self.AspNetUserRoles" FromRole="AspNetRoles" ToRole="AspNetUsers" />
+  </EntityType>
+  <EntityType Name="AspNetUserClaims">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ClaimType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ClaimValue" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AspNetUsers" Relationship="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" FromRole="AspNetUserClaims" ToRole="AspNetUsers" />
+  </EntityType>
+  <EntityType Name="AspNetUserLogins">
+    <Key>
+      <PropertyRef Name="LoginProvider" />
+      <PropertyRef Name="ProviderKey" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="LoginProvider" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ProviderKey" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserId" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AspNetUsers" Relationship="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" FromRole="AspNetUserLogins" ToRole="AspNetUsers" />
+  </EntityType>
+  <EntityType Name="AspNetUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="EmailConfirmed" Type="Boolean" Nullable="false" />
+    <Property Name="PasswordHash" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SecurityStamp" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumberConfirmed" Type="Boolean" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="DateTime" Precision="3" />
+    <Property Name="LockoutEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AspNetUserClaims" Relationship="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" FromRole="AspNetUsers" ToRole="AspNetUserClaims" />
+    <NavigationProperty Name="AspNetUserLogins" Relationship="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" FromRole="AspNetUsers" ToRole="AspNetUserLogins" />
+    <NavigationProperty Name="AspNetRoles" Relationship="Self.AspNetUserRoles" FromRole="AspNetUsers" ToRole="AspNetRoles" />
+  </EntityType>
+  <EntityType Name="Categoria">
+    <Key>
+      <PropertyRef Name="ID_Categoria" />
+    </Key>
+    <Property Name="ID_Categoria" Type="Int32" Nullable="false" />
+    <Property Name="Nombre_categoria" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion_categoria" Type="String" MaxLength="65" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Producto" Relationship="Self.FK__Producto__ID_Cat__4222D4EF" FromRole="Categoria" ToRole="Producto" />
+  </EntityType>
+  <EntityType Name="Detalle_Venta">
+    <Key>
+      <PropertyRef Name="ID_Detalle" />
+    </Key>
+    <Property Name="ID_Detalle" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Venta" Type="Int32" />
+    <Property Name="ID_Producto" Type="Int32" />
+    <Property Name="Cantidad" Type="Int32" />
+    <Property Name="Precio_unitario" Type="Double" />
+    <Property Name="Total" Type="Double" />
+    <NavigationProperty Name="Producto" Relationship="Self.FK__Detalle_V__ID_Pr__403A8C7D" FromRole="Detalle_Venta" ToRole="Producto" />
+    <NavigationProperty Name="Venta" Relationship="Self.FK__Detalle_V__ID_Ve__412EB0B6" FromRole="Detalle_Venta" ToRole="Venta" />
+  </EntityType>
+  <EntityType Name="Estado">
+    <Key>
+      <PropertyRef Name="ID_Estado" />
+    </Key>
+    <Property Name="ID_Estado" Type="Int32" Nullable="false" />
+    <Property Name="Nombre_estado" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion_estado" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Producto" Relationship="Self.FK__Producto__ID_Est__4316F928" FromRole="Estado" ToRole="Producto" />
+  </EntityType>
+  <EntityType Name="Producto">
+    <Key>
+      <PropertyRef Name="ID_Producto" />
+    </Key>
+    <Property Name="ID_Producto" Type="Int32" Nullable="false" />
+    <Property Name="Nombre_del_producto" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="Precio" Type="Int32" />
+    <Property Name="Stock" Type="Int32" />
+    <Property Name="ID_Proveedor" Type="Int32" />
+    <Property Name="ID_Categoria" Type="Int32" />
+    <Property Name="ID_Estado" Type="Int32" />
+    <Property Name="img_proc" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Categoria" Relationship="Self.FK__Producto__ID_Cat__4222D4EF" FromRole="Producto" ToRole="Categoria" />
+    <NavigationProperty Name="Detalle_Venta" Relationship="Self.FK__Detalle_V__ID_Pr__403A8C7D" FromRole="Producto" ToRole="Detalle_Venta" />
+    <NavigationProperty Name="Estado" Relationship="Self.FK__Producto__ID_Est__4316F928" FromRole="Producto" ToRole="Estado" />
+    <NavigationProperty Name="Proveedor" Relationship="Self.FK__Producto__ID_Pro__440B1D61" FromRole="Producto" ToRole="Proveedor" />
+  </EntityType>
+  <EntityType Name="Proveedor">
+    <Key>
+      <PropertyRef Name="ID_Proveedor" />
+    </Key>
+    <Property Name="ID_Proveedor" Type="Int32" Nullable="false" />
+    <Property Name="Nombre_de_la_empresa" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="Nombre_del_contacto" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Correo_electronico" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Telefono_del_contacto" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Direccion" Type="String" MaxLength="35" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RUC" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Producto" Relationship="Self.FK__Producto__ID_Pro__440B1D61" FromRole="Proveedor" ToRole="Producto" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="idUsuario" />
+    </Key>
+    <Property Name="idUsuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="foto" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="nombre" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="correo" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="numero" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Name="username" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="fechaRegistro" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Venta">
+    <Key>
+      <PropertyRef Name="ID_Venta" />
+    </Key>
+    <Property Name="ID_Venta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Fecha_de_venta" Type="DateTime" Precision="0" />
+    <Property Name="Total_venta" Type="Double" />
+    <Property Name="SubTotal" Type="Double" />
+    <Property Name="Iva" Type="Double" />
+    <NavigationProperty Name="Detalle_Venta" Relationship="Self.FK__Detalle_V__ID_Ve__412EB0B6" FromRole="Venta" ToRole="Detalle_Venta" />
+  </EntityType>
+  <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserClaims" Type="Self.AspNetUserClaims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserClaims">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserLogins" Type="Self.AspNetUserLogins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserLogins">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Producto__ID_Cat__4222D4EF">
+    <End Role="Categoria" Type="Self.Categoria" Multiplicity="0..1" />
+    <End Role="Producto" Type="Self.Producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categoria">
+        <PropertyRef Name="ID_Categoria" />
+      </Principal>
+      <Dependent Role="Producto">
+        <PropertyRef Name="ID_Categoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Detalle_V__ID_Pr__403A8C7D">
+    <End Role="Producto" Type="Self.Producto" Multiplicity="0..1" />
+    <End Role="Detalle_Venta" Type="Self.Detalle_Venta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producto">
+        <PropertyRef Name="ID_Producto" />
+      </Principal>
+      <Dependent Role="Detalle_Venta">
+        <PropertyRef Name="ID_Producto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Detalle_V__ID_Ve__412EB0B6">
+    <End Role="Venta" Type="Self.Venta" Multiplicity="0..1" />
+    <End Role="Detalle_Venta" Type="Self.Detalle_Venta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Venta">
+        <PropertyRef Name="ID_Venta" />
+      </Principal>
+      <Dependent Role="Detalle_Venta">
+        <PropertyRef Name="ID_Venta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Producto__ID_Est__4316F928">
+    <End Role="Estado" Type="Self.Estado" Multiplicity="0..1" />
+    <End Role="Producto" Type="Self.Producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Estado">
+        <PropertyRef Name="ID_Estado" />
+      </Principal>
+      <Dependent Role="Producto">
+        <PropertyRef Name="ID_Estado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Producto__ID_Pro__440B1D61">
+    <End Role="Proveedor" Type="Self.Proveedor" Multiplicity="0..1" />
+    <End Role="Producto" Type="Self.Producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proveedor">
+        <PropertyRef Name="ID_Proveedor" />
+      </Principal>
+      <Dependent Role="Producto">
+        <PropertyRef Name="ID_Proveedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AspNetUserRoles">
+    <End Role="AspNetRoles" Type="Self.AspNetRoles" Multiplicity="*" />
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="bd_Ferreteria2Entities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="C__MigrationHistory" EntityType="Self.C__MigrationHistory" />
+    <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRoles" />
+    <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaims" />
+    <EntitySet Name="AspNetUserLogins" EntityType="Self.AspNetUserLogins" />
+    <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" />
+    <EntitySet Name="Categoria" EntityType="Self.Categoria" />
+    <EntitySet Name="Detalle_Venta" EntityType="Self.Detalle_Venta" />
+    <EntitySet Name="Estado" EntityType="Self.Estado" />
+    <EntitySet Name="Producto" EntityType="Self.Producto" />
+    <EntitySet Name="Proveedor" EntityType="Self.Proveedor" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" />
+    <EntitySet Name="Venta" EntityType="Self.Venta" />
+    <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserClaims" EntitySet="AspNetUserClaims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserLogins" EntitySet="AspNetUserLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Producto__ID_Cat__4222D4EF" Association="Self.FK__Producto__ID_Cat__4222D4EF">
+      <End Role="Categoria" EntitySet="Categoria" />
+      <End Role="Producto" EntitySet="Producto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Detalle_V__ID_Pr__403A8C7D" Association="Self.FK__Detalle_V__ID_Pr__403A8C7D">
+      <End Role="Producto" EntitySet="Producto" />
+      <End Role="Detalle_Venta" EntitySet="Detalle_Venta" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Detalle_V__ID_Ve__412EB0B6" Association="Self.FK__Detalle_V__ID_Ve__412EB0B6">
+      <End Role="Venta" EntitySet="Venta" />
+      <End Role="Detalle_Venta" EntitySet="Detalle_Venta" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Producto__ID_Est__4316F928" Association="Self.FK__Producto__ID_Est__4316F928">
+      <End Role="Estado" EntitySet="Estado" />
+      <End Role="Producto" EntitySet="Producto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Producto__ID_Pro__440B1D61" Association="Self.FK__Producto__ID_Pro__440B1D61">
+      <End Role="Proveedor" EntitySet="Proveedor" />
+      <End Role="Producto" EntitySet="Producto" />
+    </AssociationSet>
+    <AssociationSet Name="AspNetUserRoles" Association="Self.AspNetUserRoles">
+      <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+    </AssociationSet>
+    <FunctionImport Name="usp_proveedor_actualizar">
+      <Parameter Name="idProveedor" Mode="In" Type="Int32" />
+      <Parameter Name="nombreEmpresa" Mode="In" Type="String" />
+      <Parameter Name="nombreContacto" Mode="In" Type="String" />
+      <Parameter Name="correo" Mode="In" Type="String" />
+      <Parameter Name="telefonoCon" Mode="In" Type="String" />
+      <Parameter Name="direccion" Mode="In" Type="String" />
+      <Parameter Name="ruc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_proveedor_eliminar">
+      <Parameter Name="idProveedor" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_Proveedor_insertar">
+      <Parameter Name="idProveedor" Mode="In" Type="Int32" />
+      <Parameter Name="nombreEmpresa" Mode="In" Type="String" />
+      <Parameter Name="nombreContacto" Mode="In" Type="String" />
+      <Parameter Name="correo" Mode="In" Type="String" />
+      <Parameter Name="telefonoCon" Mode="In" Type="String" />
+      <Parameter Name="direccion" Mode="In" Type="String" />
+      <Parameter Name="ruc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_Proveedor_Merge">
+      <Parameter Name="idProveedor" Mode="In" Type="Int32" />
+      <Parameter Name="nombreEmpresa" Mode="In" Type="String" />
+      <Parameter Name="nombreContacto" Mode="In" Type="String" />
+      <Parameter Name="correo" Mode="In" Type="String" />
+      <Parameter Name="telefonoCon" Mode="In" Type="String" />
+      <Parameter Name="direccion" Mode="In" Type="String" />
+      <Parameter Name="ruc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_ProveedorListar" ReturnType="Collection(bd_Ferreteria2Model.usp_ProveedorListar_Result)" />
+  </EntityContainer>
+  <ComplexType Name="usp_ProveedorListar_Result">
+    <Property Type="Int32" Name="ID_Proveedor" Nullable="false" />
+    <Property Type="String" Name="Nombre_de_la_empresa" Nullable="true" MaxLength="70" />
+    <Property Type="String" Name="Nombre_del_contacto" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Correo_electronico" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Telefono_del_contacto" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="Direccion" Nullable="false" MaxLength="35" />
+    <Property Type="String" Name="RUC" Nullable="false" MaxLength="25" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,150 @@
+﻿
+
+body {
+    
+}
+.product-card {
+    width: 25rem;
+    background-color:white;
+    margin: auto;
+    border: 1rem solid white;
+    border-radius:20px;
+    box-shadow: 0 0 3rem #555;
+}
+
+#product-card .swiper-container,
+#product-card .swiper-slide img,
+#product-card .product-card-thumbnail-image {
+    width: 23rem;
+    height: 19rem;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+#product-card .swiper-container {
+    display: none;
+}
+
+#product-card .pagination {
+    text-align: center;
+    display: none;
+}
+
+#product-card .swiper-pagination-switch {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: 0 0.1rem .2rem #555 inset;
+    margin: 0 0.15rem;
+    cursor: pointer;
+}
+
+#product-card .swiper-active-switch {
+    background: gray;
+}
+
+#product-card .product-details {
+    margin: 0;
+    padding: 0;
+    padding-top: 0.5rem;
+}
+
+    #product-card .product-details .book-title {
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    #product-card .product-details .author {
+        font-size: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    #product-card .product-details .rating .fa-star {
+        color: orange;
+        margin: 0;
+        padding: 0;
+    }
+
+#product-card .product-quality .input-chip {
+    display: inline-flex;
+    margin-top: .2rem;
+    padding: 0 .5rem;
+    height: 1.8rem;
+    font-size: 1rem;
+    background-color: #f1f1f1;
+    align-items: center;
+}
+
+#product-card .product-quality .active {
+    background-color: rgba(20, 150, 20, 0.4);
+}
+
+#product-card .product-quality .input-chip input {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+#product-card .price {
+    margin: 0;
+    padding: 0;
+    margin-top: 0.2rem;
+}
+
+    #product-card .price span {
+        padding-right: 0.3rem;
+    }
+
+    #product-card .price .new-price {
+        font-size: 1.5rem;
+        color: darkslategrey;
+    }
+
+    #product-card .price .discount {
+        font-size: 1rem;
+        color: green;
+    }
+
+    #product-card .price del {
+        color: red;
+    }
+
+#show_on_hover {
+    display: none;
+    padding-bottom: 0.5rem;
+    justify-content: space-between;
+}
+
+#product-card .add-to-card {
+    border: 0.05rem solid black;
+    background-color: white;
+    color: black;
+    padding: 0.3rem 0.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#product-card .add-to-card {
+    border-color: black;
+    color: black;
+}
+
+    #product-card .add-to-card:hover {
+        border-color: darkgreen;
+        color: green;
+    }
+
+#product-card .heart {
+    padding: 0.3rem 0;
+    font-size: 1.5rem;
+    color: darkgray;
+}
+
+    #product-card .heart:hover {
+        color: deeppink;
+        cursor: pointer;
+    }

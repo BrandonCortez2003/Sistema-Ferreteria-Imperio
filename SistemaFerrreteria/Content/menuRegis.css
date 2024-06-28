@@ -1,0 +1,40 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-family: Bahnschrift;
+    font-weight: 100px;
+    margin-left: 120px;
+    padding-right: 50px;
+    color: white;
+}
+
+.navbar {
+    padding: 2rem;
+    background-color: darkslateblue;
+    font-family: Bahnschrift;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 160px;
+}
+
+.navbar-nav {
+    margin-right: 0px; /* Ajusta el margen derecho de la lista del menú */
+}
+
+    .navbar-nav li {
+        margin-right: 0px; /* Ajusta el margen derecho entre los elementos del menú */
+    }
+
+/* Añade este estilo para ajustar la separación del botón de menú en pantallas pequeñas */
+.navbar-toggler {
+    margin-right: 10px;
+}
